@@ -1,0 +1,3549 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.4.1",
+  "hash": "094e11df73add4438227",
+  "time": 115,
+  "builtAt": 1522344657725,
+  "publicPath": "",
+  "outputPath": "/Users/techird/Projects/tree-shaking/dist",
+  "assetsByChunkName": {
+    "two": "two.js",
+    "one": "one.js"
+  },
+  "assets": [
+    {
+      "name": "two.js",
+      "size": 1354,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "two"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "one.js",
+      "size": 1295,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "one"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "one": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "one.js"
+      ]
+    },
+    "two": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "two.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1492,
+      "names": [
+        "two"
+      ],
+      "files": [
+        "two.js"
+      ],
+      "hash": "cd3494b6eb269f7ed339",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js 45bd1022f5495b2c803f43e3ec443271",
+          "name": "./helpers/index.js + 7 modules",
+          "index": 1,
+          "index2": 7,
+          "size": 533,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+              "module": "./entry-two.js + 8 modules",
+              "moduleName": "./entry-two.js + 8 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "helpers",
+              "loc": "1:0-34"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+              "module": "./entry-two.js + 8 modules",
+              "moduleName": "./entry-two.js + 8 modules",
+              "type": "harmony import specifier",
+              "userRequest": "helpers",
+              "loc": "5:27-34"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "module": "./entry-one.js",
+              "moduleName": "./entry-one.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "helpers",
+              "loc": "1:0-36"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "module": "./entry-one.js",
+              "moduleName": "./entry-one.js",
+              "type": "harmony import specifier",
+              "userRequest": "helpers",
+              "loc": "3:12-21"
+            }
+          ],
+          "usedExports": [
+            "helpApple",
+            "helpGod"
+          ],
+          "providedExports": [
+            "helpApple",
+            "helpBoy",
+            "helpCat",
+            "helpDog",
+            "helpElephant",
+            "helpFather",
+            "helpGod"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "index": 1,
+              "index2": 7,
+              "size": 198,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "issuerId": 2,
+              "issuerName": "./entry-one.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 2
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+                  "module": "./entry-two.js + 8 modules",
+                  "moduleName": "./entry-two.js + 8 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "helpers",
+                  "loc": "1:0-34"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+                  "module": "./entry-two.js + 8 modules",
+                  "moduleName": "./entry-two.js + 8 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "helpers",
+                  "loc": "5:27-34"
+                },
+                {
+                  "moduleId": 2,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "module": "./entry-one.js",
+                  "moduleName": "./entry-one.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "helpers",
+                  "loc": "1:0-36"
+                },
+                {
+                  "moduleId": 2,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "module": "./entry-one.js",
+                  "moduleName": "./entry-one.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "helpers",
+                  "loc": "3:12-21"
+                }
+              ],
+              "usedExports": [
+                "helpApple",
+                "helpGod"
+              ],
+              "providedExports": [
+                "helpApple",
+                "helpBoy",
+                "helpCat",
+                "helpDog",
+                "helpElephant",
+                "helpFather",
+                "helpGod"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "export * from './helpApple';\nexport * from './helpBoy';\nexport * from './helpCat';\nexport * from './helpDog';\nexport * from './helpElephant';\nexport * from './helpFather';\nexport * from './helpGod';"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpApple.js",
+              "name": "./helpers/helpApple.js",
+              "index": 2,
+              "index2": 0,
+              "size": 49,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpApple",
+                  "loc": "1:0-28"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpApple",
+                  "loc": "1:0-28"
+                }
+              ],
+              "usedExports": [
+                "helpApple"
+              ],
+              "providedExports": [
+                "helpApple"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpApple() {\n  return 'apple';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpBoy.js",
+              "name": "./helpers/helpBoy.js",
+              "index": 3,
+              "index2": 1,
+              "size": 45,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpBoy",
+                  "loc": "2:0-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpBoy",
+                  "loc": "2:0-26"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpBoy"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpBoy() {\n  return 'boy';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpCat.js",
+              "name": "./helpers/helpCat.js",
+              "index": 4,
+              "index2": 2,
+              "size": 45,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpCat",
+                  "loc": "3:0-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpCat",
+                  "loc": "3:0-26"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpCat"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpCat() {\n  return 'cat';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpDog.js",
+              "name": "./helpers/helpDog.js",
+              "index": 5,
+              "index2": 3,
+              "size": 45,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpDog",
+                  "loc": "4:0-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpDog",
+                  "loc": "4:0-26"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpDog"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpDog() {\n  return 'dog';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpElephant.js",
+              "name": "./helpers/helpElephant.js",
+              "index": 6,
+              "index2": 4,
+              "size": 55,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpElephant",
+                  "loc": "5:0-31"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpElephant",
+                  "loc": "5:0-31"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpElephant"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpElephant() {\n  return 'elephant';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpFather.js",
+              "name": "./helpers/helpFather.js",
+              "index": 7,
+              "index2": 5,
+              "size": 51,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpFather",
+                  "loc": "6:0-29"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpFather",
+                  "loc": "6:0-29"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpFather"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpFather() {\n  return 'father';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpGod.js",
+              "name": "./helpers/helpGod.js",
+              "index": 8,
+              "index2": 6,
+              "size": 45,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpGod",
+                  "loc": "7:0-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpGod",
+                  "loc": "7:0-26"
+                }
+              ],
+              "usedExports": [
+                "helpGod"
+              ],
+              "providedExports": [
+                "helpGod"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpGod() {\n  return 'god';\n}"
+            }
+          ],
+          "filteredModules": 0
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+          "name": "./entry-two.js + 8 modules",
+          "index": 9,
+          "index2": 17,
+          "size": 959,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./entry-two.js",
+              "loc": "two"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./helpers/index.js"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "index": 9,
+              "index2": 17,
+              "size": 111,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 24,
+                "building": 10
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "./entry-two.js",
+                  "loc": "two"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "import { AloneComponent } from 'components';\n\nconst alone = new AloneComponent();\n\nconsole.log(alone.render());"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "name": "./components/index.js",
+              "index": 10,
+              "index2": 16,
+              "size": 239,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "issuerId": null,
+              "issuerName": "./entry-two.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "name": "./entry-two.js",
+                  "profile": {
+                    "factory": 24,
+                    "building": 10
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 4,
+                "building": 3
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "module": "./entry-two.js",
+                  "moduleName": "./entry-two.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "components",
+                  "loc": "1:0-44"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "module": "./entry-two.js",
+                  "moduleName": "./entry-two.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "components",
+                  "loc": "3:18-32"
+                }
+              ],
+              "usedExports": [
+                "AloneComponent"
+              ],
+              "providedExports": [
+                "AloneComponent",
+                "BadComponent",
+                "CoolComponent",
+                "DecentComponent",
+                "EfficientComponent",
+                "FunnyComponent",
+                "GreatComponent"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "export * from './AloneComponent';\nexport * from './BadComponent';\nexport * from './CoolComponent';\nexport * from './DecentComponent';\nexport * from './EfficientComponent';\nexport * from './FunnyComponent';\nexport * from './GreatComponent';"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/AloneComponent.js",
+              "name": "./components/AloneComponent.js",
+              "index": 11,
+              "index2": 9,
+              "size": 122,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "issuerId": null,
+              "issuerName": "./components/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "name": "./entry-two.js",
+                  "profile": {
+                    "factory": 24,
+                    "building": 10
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "name": "./components/index.js",
+                  "profile": {
+                    "factory": 4,
+                    "building": 3
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 6,
+                "dependencies": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./AloneComponent",
+                  "loc": "1:0-33"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./AloneComponent",
+                  "loc": "1:0-33"
+                }
+              ],
+              "usedExports": [
+                "AloneComponent"
+              ],
+              "providedExports": [
+                "AloneComponent"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "import { helpGod } from 'helpers';\n\nexport class AloneComponent {\n  render() {\n    return 'I am alone.' + helpGod();\n  }\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/BadComponent.js",
+              "name": "./components/BadComponent.js",
+              "index": 12,
+              "index2": 10,
+              "size": 72,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "issuerId": null,
+              "issuerName": "./components/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "name": "./entry-two.js",
+                  "profile": {
+                    "factory": 24,
+                    "building": 10
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "name": "./components/index.js",
+                  "profile": {
+                    "factory": 4,
+                    "building": 3
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 6,
+                "dependencies": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./BadComponent",
+                  "loc": "2:0-31"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./BadComponent",
+                  "loc": "2:0-31"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "BadComponent"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "\nexport class BadComponent {\n  render() {\n    return 'I feel bad';\n  }\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/CoolComponent.js",
+              "name": "./components/CoolComponent.js",
+              "index": 13,
+              "index2": 11,
+              "size": 81,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "issuerId": null,
+              "issuerName": "./components/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "name": "./entry-two.js",
+                  "profile": {
+                    "factory": 24,
+                    "building": 10
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "name": "./components/index.js",
+                  "profile": {
+                    "factory": 4,
+                    "building": 3
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 6,
+                "dependencies": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./CoolComponent",
+                  "loc": "3:0-32"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./CoolComponent",
+                  "loc": "3:0-32"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "CoolComponent"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export class CoolComponent {\n  render() {\n    return 'Hey man, I am cool!';\n  }\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/DecentComponent.js",
+              "name": "./components/DecentComponent.js",
+              "index": 14,
+              "index2": 12,
+              "size": 88,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "issuerId": null,
+              "issuerName": "./components/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "name": "./entry-two.js",
+                  "profile": {
+                    "factory": 24,
+                    "building": 10
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "name": "./components/index.js",
+                  "profile": {
+                    "factory": 4,
+                    "building": 3
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 6,
+                "dependencies": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./DecentComponent",
+                  "loc": "4:0-34"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./DecentComponent",
+                  "loc": "4:0-34"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "DecentComponent"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export class DecentComponent {\n  render() {\n    return 'What dones decent means?';\n  }\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/EfficientComponent.js",
+              "name": "./components/EfficientComponent.js",
+              "index": 15,
+              "index2": 13,
+              "size": 81,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "issuerId": null,
+              "issuerName": "./components/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "name": "./entry-two.js",
+                  "profile": {
+                    "factory": 24,
+                    "building": 10
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "name": "./components/index.js",
+                  "profile": {
+                    "factory": 4,
+                    "building": 3
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 6,
+                "dependencies": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./EfficientComponent",
+                  "loc": "5:0-37"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./EfficientComponent",
+                  "loc": "5:0-37"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "EfficientComponent"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export class EfficientComponent {\n  render() {\n    return 'I am effective';\n  }\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/FunnyComponent.js",
+              "name": "./components/FunnyComponent.js",
+              "index": 16,
+              "index2": 14,
+              "size": 84,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "issuerId": null,
+              "issuerName": "./components/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "name": "./entry-two.js",
+                  "profile": {
+                    "factory": 24,
+                    "building": 10
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "name": "./components/index.js",
+                  "profile": {
+                    "factory": 4,
+                    "building": 3
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 6,
+                "dependencies": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./FunnyComponent",
+                  "loc": "6:0-33"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./FunnyComponent",
+                  "loc": "6:0-33"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "FunnyComponent"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export class FunnyComponent {\n  render() {\n    return 'Who is the funny one?';\n  }\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/GreatComponent.js",
+              "name": "./components/GreatComponent.js",
+              "index": 17,
+              "index2": 15,
+              "size": 76,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "issuerId": null,
+              "issuerName": "./components/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+                  "name": "./entry-two.js",
+                  "profile": {
+                    "factory": 24,
+                    "building": 10
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "name": "./components/index.js",
+                  "profile": {
+                    "factory": 4,
+                    "building": 3
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 6,
+                "dependencies": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./GreatComponent",
+                  "loc": "7:0-33"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+                  "module": "./components/index.js",
+                  "moduleName": "./components/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./GreatComponent",
+                  "loc": "7:0-33"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "GreatComponent"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export class GreatComponent {\n  render() {\n    return 'Mao is great!';\n  }\n}"
+            }
+          ],
+          "filteredModules": 0
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "two",
+          "request": "./entry-two.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 596,
+      "names": [
+        "one"
+      ],
+      "files": [
+        "one.js"
+      ],
+      "hash": "eda5e21b462d4829ae13",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js 45bd1022f5495b2c803f43e3ec443271",
+          "name": "./helpers/index.js + 7 modules",
+          "index": 1,
+          "index2": 7,
+          "size": 533,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+              "module": "./entry-two.js + 8 modules",
+              "moduleName": "./entry-two.js + 8 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "helpers",
+              "loc": "1:0-34"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+              "module": "./entry-two.js + 8 modules",
+              "moduleName": "./entry-two.js + 8 modules",
+              "type": "harmony import specifier",
+              "userRequest": "helpers",
+              "loc": "5:27-34"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "module": "./entry-one.js",
+              "moduleName": "./entry-one.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "helpers",
+              "loc": "1:0-36"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "module": "./entry-one.js",
+              "moduleName": "./entry-one.js",
+              "type": "harmony import specifier",
+              "userRequest": "helpers",
+              "loc": "3:12-21"
+            }
+          ],
+          "usedExports": [
+            "helpApple",
+            "helpGod"
+          ],
+          "providedExports": [
+            "helpApple",
+            "helpBoy",
+            "helpCat",
+            "helpDog",
+            "helpElephant",
+            "helpFather",
+            "helpGod"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "index": 1,
+              "index2": 7,
+              "size": 198,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "issuerId": 2,
+              "issuerName": "./entry-one.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 5,
+                "building": 2
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+                  "module": "./entry-two.js + 8 modules",
+                  "moduleName": "./entry-two.js + 8 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "helpers",
+                  "loc": "1:0-34"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+                  "module": "./entry-two.js + 8 modules",
+                  "moduleName": "./entry-two.js + 8 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "helpers",
+                  "loc": "5:27-34"
+                },
+                {
+                  "moduleId": 2,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "module": "./entry-one.js",
+                  "moduleName": "./entry-one.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "helpers",
+                  "loc": "1:0-36"
+                },
+                {
+                  "moduleId": 2,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "module": "./entry-one.js",
+                  "moduleName": "./entry-one.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "helpers",
+                  "loc": "3:12-21"
+                }
+              ],
+              "usedExports": [
+                "helpApple",
+                "helpGod"
+              ],
+              "providedExports": [
+                "helpApple",
+                "helpBoy",
+                "helpCat",
+                "helpDog",
+                "helpElephant",
+                "helpFather",
+                "helpGod"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "export * from './helpApple';\nexport * from './helpBoy';\nexport * from './helpCat';\nexport * from './helpDog';\nexport * from './helpElephant';\nexport * from './helpFather';\nexport * from './helpGod';"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpApple.js",
+              "name": "./helpers/helpApple.js",
+              "index": 2,
+              "index2": 0,
+              "size": 49,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpApple",
+                  "loc": "1:0-28"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpApple",
+                  "loc": "1:0-28"
+                }
+              ],
+              "usedExports": [
+                "helpApple"
+              ],
+              "providedExports": [
+                "helpApple"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpApple() {\n  return 'apple';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpBoy.js",
+              "name": "./helpers/helpBoy.js",
+              "index": 3,
+              "index2": 1,
+              "size": 45,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpBoy",
+                  "loc": "2:0-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpBoy",
+                  "loc": "2:0-26"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpBoy"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpBoy() {\n  return 'boy';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpCat.js",
+              "name": "./helpers/helpCat.js",
+              "index": 4,
+              "index2": 2,
+              "size": 45,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpCat",
+                  "loc": "3:0-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpCat",
+                  "loc": "3:0-26"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpCat"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpCat() {\n  return 'cat';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpDog.js",
+              "name": "./helpers/helpDog.js",
+              "index": 5,
+              "index2": 3,
+              "size": 45,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpDog",
+                  "loc": "4:0-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpDog",
+                  "loc": "4:0-26"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpDog"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpDog() {\n  return 'dog';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpElephant.js",
+              "name": "./helpers/helpElephant.js",
+              "index": 6,
+              "index2": 4,
+              "size": 55,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpElephant",
+                  "loc": "5:0-31"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpElephant",
+                  "loc": "5:0-31"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpElephant"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpElephant() {\n  return 'elephant';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpFather.js",
+              "name": "./helpers/helpFather.js",
+              "index": 7,
+              "index2": 5,
+              "size": 51,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpFather",
+                  "loc": "6:0-29"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpFather",
+                  "loc": "6:0-29"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "helpFather"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpFather() {\n  return 'father';\n}"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpGod.js",
+              "name": "./helpers/helpGod.js",
+              "index": 8,
+              "index2": 6,
+              "size": 45,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "issuerId": null,
+              "issuerName": "./helpers/index.js",
+              "issuerPath": [
+                {
+                  "id": 2,
+                  "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+                  "name": "./entry-one.js",
+                  "profile": {
+                    "factory": 28,
+                    "building": 8
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "name": "./helpers/index.js",
+                  "profile": {
+                    "factory": 5,
+                    "building": 2
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 6,
+                "building": 5
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./helpGod",
+                  "loc": "7:0-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+                  "module": "./helpers/index.js",
+                  "moduleName": "./helpers/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./helpGod",
+                  "loc": "7:0-26"
+                }
+              ],
+              "usedExports": [
+                "helpGod"
+              ],
+              "providedExports": [
+                "helpGod"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export function helpGod() {\n  return 'god';\n}"
+            }
+          ],
+          "filteredModules": 0
+        },
+        {
+          "id": 2,
+          "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+          "name": "./entry-one.js",
+          "index": 0,
+          "index2": 8,
+          "size": 63,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 28,
+            "building": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./entry-one.js",
+              "loc": "one"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "import { helpApple } from 'helpers';\n\nconsole.log(helpApple());"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "one",
+          "request": "./entry-one.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js 45bd1022f5495b2c803f43e3ec443271",
+      "name": "./helpers/index.js + 7 modules",
+      "index": 1,
+      "index2": 7,
+      "size": 533,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+          "module": "./entry-two.js + 8 modules",
+          "moduleName": "./entry-two.js + 8 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "helpers",
+          "loc": "1:0-34"
+        },
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+          "module": "./entry-two.js + 8 modules",
+          "moduleName": "./entry-two.js + 8 modules",
+          "type": "harmony import specifier",
+          "userRequest": "helpers",
+          "loc": "5:27-34"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+          "module": "./entry-one.js",
+          "moduleName": "./entry-one.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "helpers",
+          "loc": "1:0-36"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+          "module": "./entry-one.js",
+          "moduleName": "./entry-one.js",
+          "type": "harmony import specifier",
+          "userRequest": "helpers",
+          "loc": "3:12-21"
+        }
+      ],
+      "usedExports": [
+        "helpApple",
+        "helpGod"
+      ],
+      "providedExports": [
+        "helpApple",
+        "helpBoy",
+        "helpCat",
+        "helpDog",
+        "helpElephant",
+        "helpFather",
+        "helpGod"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+          "name": "./helpers/index.js",
+          "index": 1,
+          "index2": 7,
+          "size": 198,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/entry-one.js",
+          "issuerId": 2,
+          "issuerName": "./entry-one.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "name": "./entry-one.js",
+              "profile": {
+                "factory": 28,
+                "building": 8
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+              "module": "./entry-two.js + 8 modules",
+              "moduleName": "./entry-two.js + 8 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "helpers",
+              "loc": "1:0-34"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+              "module": "./entry-two.js + 8 modules",
+              "moduleName": "./entry-two.js + 8 modules",
+              "type": "harmony import specifier",
+              "userRequest": "helpers",
+              "loc": "5:27-34"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "module": "./entry-one.js",
+              "moduleName": "./entry-one.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "helpers",
+              "loc": "1:0-36"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "module": "./entry-one.js",
+              "moduleName": "./entry-one.js",
+              "type": "harmony import specifier",
+              "userRequest": "helpers",
+              "loc": "3:12-21"
+            }
+          ],
+          "usedExports": [
+            "helpApple",
+            "helpGod"
+          ],
+          "providedExports": [
+            "helpApple",
+            "helpBoy",
+            "helpCat",
+            "helpDog",
+            "helpElephant",
+            "helpFather",
+            "helpGod"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export * from './helpApple';\nexport * from './helpBoy';\nexport * from './helpCat';\nexport * from './helpDog';\nexport * from './helpElephant';\nexport * from './helpFather';\nexport * from './helpGod';"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpApple.js",
+          "name": "./helpers/helpApple.js",
+          "index": 2,
+          "index2": 0,
+          "size": 49,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+          "issuerId": null,
+          "issuerName": "./helpers/index.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "name": "./entry-one.js",
+              "profile": {
+                "factory": 28,
+                "building": 8
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "profile": {
+                "factory": 5,
+                "building": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./helpApple",
+              "loc": "1:0-28"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./helpApple",
+              "loc": "1:0-28"
+            }
+          ],
+          "usedExports": [
+            "helpApple"
+          ],
+          "providedExports": [
+            "helpApple"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export function helpApple() {\n  return 'apple';\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpBoy.js",
+          "name": "./helpers/helpBoy.js",
+          "index": 3,
+          "index2": 1,
+          "size": 45,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+          "issuerId": null,
+          "issuerName": "./helpers/index.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "name": "./entry-one.js",
+              "profile": {
+                "factory": 28,
+                "building": 8
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "profile": {
+                "factory": 5,
+                "building": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./helpBoy",
+              "loc": "2:0-26"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./helpBoy",
+              "loc": "2:0-26"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "helpBoy"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export function helpBoy() {\n  return 'boy';\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpCat.js",
+          "name": "./helpers/helpCat.js",
+          "index": 4,
+          "index2": 2,
+          "size": 45,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+          "issuerId": null,
+          "issuerName": "./helpers/index.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "name": "./entry-one.js",
+              "profile": {
+                "factory": 28,
+                "building": 8
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "profile": {
+                "factory": 5,
+                "building": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./helpCat",
+              "loc": "3:0-26"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./helpCat",
+              "loc": "3:0-26"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "helpCat"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export function helpCat() {\n  return 'cat';\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpDog.js",
+          "name": "./helpers/helpDog.js",
+          "index": 5,
+          "index2": 3,
+          "size": 45,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+          "issuerId": null,
+          "issuerName": "./helpers/index.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "name": "./entry-one.js",
+              "profile": {
+                "factory": 28,
+                "building": 8
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "profile": {
+                "factory": 5,
+                "building": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./helpDog",
+              "loc": "4:0-26"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./helpDog",
+              "loc": "4:0-26"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "helpDog"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export function helpDog() {\n  return 'dog';\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpElephant.js",
+          "name": "./helpers/helpElephant.js",
+          "index": 6,
+          "index2": 4,
+          "size": 55,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+          "issuerId": null,
+          "issuerName": "./helpers/index.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "name": "./entry-one.js",
+              "profile": {
+                "factory": 28,
+                "building": 8
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "profile": {
+                "factory": 5,
+                "building": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./helpElephant",
+              "loc": "5:0-31"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./helpElephant",
+              "loc": "5:0-31"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "helpElephant"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export function helpElephant() {\n  return 'elephant';\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpFather.js",
+          "name": "./helpers/helpFather.js",
+          "index": 7,
+          "index2": 5,
+          "size": 51,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+          "issuerId": null,
+          "issuerName": "./helpers/index.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "name": "./entry-one.js",
+              "profile": {
+                "factory": 28,
+                "building": 8
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "profile": {
+                "factory": 5,
+                "building": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./helpFather",
+              "loc": "6:0-29"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./helpFather",
+              "loc": "6:0-29"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "helpFather"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export function helpFather() {\n  return 'father';\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/helpers/helpGod.js",
+          "name": "./helpers/helpGod.js",
+          "index": 8,
+          "index2": 6,
+          "size": 45,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+          "issuerId": null,
+          "issuerName": "./helpers/index.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+              "name": "./entry-one.js",
+              "profile": {
+                "factory": 28,
+                "building": 8
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "name": "./helpers/index.js",
+              "profile": {
+                "factory": 5,
+                "building": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./helpGod",
+              "loc": "7:0-26"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/helpers/index.js",
+              "module": "./helpers/index.js",
+              "moduleName": "./helpers/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./helpGod",
+              "loc": "7:0-26"
+            }
+          ],
+          "usedExports": [
+            "helpGod"
+          ],
+          "providedExports": [
+            "helpGod"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export function helpGod() {\n  return 'god';\n}"
+        }
+      ],
+      "filteredModules": 0
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js 2301470111bd6c76e5a749c3ab440334",
+      "name": "./entry-two.js + 8 modules",
+      "index": 9,
+      "index2": 17,
+      "size": 959,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./entry-two.js",
+          "loc": "two"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./helpers/index.js"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+          "name": "./entry-two.js",
+          "index": 9,
+          "index2": 17,
+          "size": 111,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 24,
+            "building": 10
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./entry-two.js",
+              "loc": "two"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "import { AloneComponent } from 'components';\n\nconst alone = new AloneComponent();\n\nconsole.log(alone.render());"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+          "name": "./components/index.js",
+          "index": 10,
+          "index2": 16,
+          "size": 239,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/entry-two.js",
+          "issuerId": null,
+          "issuerName": "./entry-two.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "profile": {
+                "factory": 24,
+                "building": 10
+              }
+            }
+          ],
+          "profile": {
+            "factory": 4,
+            "building": 3
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "module": "./entry-two.js",
+              "moduleName": "./entry-two.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "components",
+              "loc": "1:0-44"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "module": "./entry-two.js",
+              "moduleName": "./entry-two.js",
+              "type": "harmony import specifier",
+              "userRequest": "components",
+              "loc": "3:18-32"
+            }
+          ],
+          "usedExports": [
+            "AloneComponent"
+          ],
+          "providedExports": [
+            "AloneComponent",
+            "BadComponent",
+            "CoolComponent",
+            "DecentComponent",
+            "EfficientComponent",
+            "FunnyComponent",
+            "GreatComponent"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export * from './AloneComponent';\nexport * from './BadComponent';\nexport * from './CoolComponent';\nexport * from './DecentComponent';\nexport * from './EfficientComponent';\nexport * from './FunnyComponent';\nexport * from './GreatComponent';"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/components/AloneComponent.js",
+          "name": "./components/AloneComponent.js",
+          "index": 11,
+          "index2": 9,
+          "size": 122,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+          "issuerId": null,
+          "issuerName": "./components/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "profile": {
+                "factory": 24,
+                "building": 10
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "name": "./components/index.js",
+              "profile": {
+                "factory": 4,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 6,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./AloneComponent",
+              "loc": "1:0-33"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./AloneComponent",
+              "loc": "1:0-33"
+            }
+          ],
+          "usedExports": [
+            "AloneComponent"
+          ],
+          "providedExports": [
+            "AloneComponent"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "import { helpGod } from 'helpers';\n\nexport class AloneComponent {\n  render() {\n    return 'I am alone.' + helpGod();\n  }\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/components/BadComponent.js",
+          "name": "./components/BadComponent.js",
+          "index": 12,
+          "index2": 10,
+          "size": 72,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+          "issuerId": null,
+          "issuerName": "./components/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "profile": {
+                "factory": 24,
+                "building": 10
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "name": "./components/index.js",
+              "profile": {
+                "factory": 4,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 6,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./BadComponent",
+              "loc": "2:0-31"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./BadComponent",
+              "loc": "2:0-31"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "BadComponent"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "\nexport class BadComponent {\n  render() {\n    return 'I feel bad';\n  }\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/components/CoolComponent.js",
+          "name": "./components/CoolComponent.js",
+          "index": 13,
+          "index2": 11,
+          "size": 81,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+          "issuerId": null,
+          "issuerName": "./components/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "profile": {
+                "factory": 24,
+                "building": 10
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "name": "./components/index.js",
+              "profile": {
+                "factory": 4,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 6,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./CoolComponent",
+              "loc": "3:0-32"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./CoolComponent",
+              "loc": "3:0-32"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "CoolComponent"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export class CoolComponent {\n  render() {\n    return 'Hey man, I am cool!';\n  }\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/components/DecentComponent.js",
+          "name": "./components/DecentComponent.js",
+          "index": 14,
+          "index2": 12,
+          "size": 88,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+          "issuerId": null,
+          "issuerName": "./components/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "profile": {
+                "factory": 24,
+                "building": 10
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "name": "./components/index.js",
+              "profile": {
+                "factory": 4,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 6,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./DecentComponent",
+              "loc": "4:0-34"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./DecentComponent",
+              "loc": "4:0-34"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "DecentComponent"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export class DecentComponent {\n  render() {\n    return 'What dones decent means?';\n  }\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/components/EfficientComponent.js",
+          "name": "./components/EfficientComponent.js",
+          "index": 15,
+          "index2": 13,
+          "size": 81,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+          "issuerId": null,
+          "issuerName": "./components/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "profile": {
+                "factory": 24,
+                "building": 10
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "name": "./components/index.js",
+              "profile": {
+                "factory": 4,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 6,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./EfficientComponent",
+              "loc": "5:0-37"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./EfficientComponent",
+              "loc": "5:0-37"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "EfficientComponent"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export class EfficientComponent {\n  render() {\n    return 'I am effective';\n  }\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/components/FunnyComponent.js",
+          "name": "./components/FunnyComponent.js",
+          "index": 16,
+          "index2": 14,
+          "size": 84,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+          "issuerId": null,
+          "issuerName": "./components/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "profile": {
+                "factory": 24,
+                "building": 10
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "name": "./components/index.js",
+              "profile": {
+                "factory": 4,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 6,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./FunnyComponent",
+              "loc": "6:0-33"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./FunnyComponent",
+              "loc": "6:0-33"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "FunnyComponent"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export class FunnyComponent {\n  render() {\n    return 'Who is the funny one?';\n  }\n}"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/techird/Projects/tree-shaking/components/GreatComponent.js",
+          "name": "./components/GreatComponent.js",
+          "index": 17,
+          "index2": 15,
+          "size": 76,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/techird/Projects/tree-shaking/components/index.js",
+          "issuerId": null,
+          "issuerName": "./components/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/entry-two.js",
+              "name": "./entry-two.js",
+              "profile": {
+                "factory": 24,
+                "building": 10
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "name": "./components/index.js",
+              "profile": {
+                "factory": 4,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 5,
+            "building": 6,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./GreatComponent",
+              "loc": "7:0-33"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/techird/Projects/tree-shaking/components/index.js",
+              "module": "./components/index.js",
+              "moduleName": "./components/index.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./GreatComponent",
+              "loc": "7:0-33"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "GreatComponent"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export class GreatComponent {\n  render() {\n    return 'Mao is great!';\n  }\n}"
+        }
+      ],
+      "filteredModules": 0
+    },
+    {
+      "id": 2,
+      "identifier": "/Users/techird/Projects/tree-shaking/entry-one.js",
+      "name": "./entry-one.js",
+      "index": 0,
+      "index2": 8,
+      "size": 63,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 28,
+        "building": 8
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./entry-one.js",
+          "loc": "one"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is an entry point"
+      ],
+      "depth": 0,
+      "source": "import { helpApple } from 'helpers';\n\nconsole.log(helpApple());"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
+[1mWebpack Bundle Analyzer[22m is started at [1mhttp://127.0.0.1:8888[22m
+Use [1mCtrl+C[22m to close it

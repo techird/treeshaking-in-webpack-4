@@ -1,0 +1,21 @@
+{
+  "name": "tree-shaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack/webpack.config.js",
+    "profile": "webpack --config ./webpack/webpack.config.js --profile --json > stat.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.4.1",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
